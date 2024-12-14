@@ -1,0 +1,45 @@
+{
+	"name": "vim-nightfly-theme",
+	"displayName": "Vim Nightfly Theme",
+	"publisher": "kitPlz",
+	"description": "A vim nightfly theme for Visual Studio Code",
+	"version": "0.0.1",
+	"license": "MIT",
+	"scripts": {
+		"prestart": "tsc index.ts",
+		"start": "node index.js"
+	},
+	"engines": {
+		"vscode": "^1.11.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Vim Nightfly Theme",
+				"uiTheme": "vs-dark",
+				"path": "./theme.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"@types/node": "^7.0.10",
+		"typescript": "^2.2.1",
+		"vscode-theme-generator": "*"
+	},
+	"__metadata": {
+		"id": "55d2dd62-e0a9-4314-a657-67265cc27e11",
+		"publisherId": "b41195b4-0e99-4b73-a689-63743141ffe0",
+		"publisherDisplayName": "kitPlz",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1729448564828,
+		"pinned": false,
+		"preRelease": false,
+		"source": "gallery"
+	}
+}
