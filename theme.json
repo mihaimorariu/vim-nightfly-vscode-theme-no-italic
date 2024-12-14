@@ -1,5 +1,5 @@
 {
-  "name": "Vim Nightfly",
+  "name": "Vim Nightfly (No Italic)",
   "tokenColors": [
     {
       "name": "Global settings",
@@ -69,7 +69,6 @@
       "scope": "support.module, support.node",
       "settings": {
         "foreground": "#ff7975",
-        "fontStyle": "italic"
       }
     },
     {
@@ -91,7 +90,6 @@
       "scope": "comment",
       "settings": {
         "foreground": "#034275",
-        "fontStyle": "italic"
       }
     },
     {
